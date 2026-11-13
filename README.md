@@ -6,6 +6,7 @@ Portfólio de exercícios desenvolvidos no SENAI Taguatinga. Os projetos registr
 
 | Projeto | Tecnologias | O que foi desenvolvido |
 | --- | --- | --- |
+| [Controle de Estoque em Java](./Controle%20de%20Estoque%20Java/README.md) | Java | Consulta, retirada de produtos e cálculo do total no terminal. |
 | [Controle de Estoque](./Controle%20de%20Estoque%20Portugol/README.md) | Portugol | Programa de terminal para consultar estoque de produtos de informática, registrar retiradas e calcular o valor de cada retirada. |
 | [Call of Duty — HTML](./Call%20Of%20Duty%20-%20HTML/README.md) | HTML | Página temática com notícias, gameplay e informações sobre a série, estruturada com tabelas e atributos HTML. |
 | [Call of Duty — HTML e CSS](./Call%20Of%20Duty%20-%20HTML%20%2B%20CSS/README.md) | HTML e CSS | Segunda versão da página, com HTML semântico e uma folha de estilos externa. |
@@ -15,7 +16,8 @@ Portfólio de exercícios desenvolvidos no SENAI Taguatinga. Os projetos registr
 
 Baixe o repositório em **Code → Download ZIP** e extraia os arquivos.
 
-- **Controle de Estoque** — abra `controle de estoque.por` no Portugol Studio ou no Portugol Webstudio e execute o programa.
+- **Controle de Estoque em Java** — siga as instruções no README do exercício.
+- **Controle de Estoque em Portugol** — abra `controle de estoque.por` no Portugol Studio ou no Portugol Webstudio e execute o programa.
 - **Call of Duty** — abra o `site.html` da versão desejada no navegador.
 - **Vianda Marmitex** — abra `index.html` no navegador. Mantenha o CSS, o JavaScript e as imagens na mesma pasta do HTML.
 
