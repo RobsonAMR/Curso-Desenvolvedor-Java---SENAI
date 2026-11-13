@@ -1,0 +1,19 @@
+categoria	nome	descricao	preco	foto	etiqueta	dias	disponivel
+Marmitas	Frango Grelhado	Filés de frango grelhado, leves e suculentos.	22,00	frango_grelhado.jpg		dom,seg,qua,qui,sex,sab	sim
+Marmitas	Linguiça de Frango	Linguiça de frango grelhada em rodelas.	20,00	linguica_frango.jpg		todos	sim
+Marmitas	Bisteca Suína	Bisteca suína grelhada ao ponto.	24,00	bisteca_suina_1.jpg		todos	sim
+Marmitas	Parmegiana de Frango	Filé de frango empanado com molho e queijo. Acompanha arroz e batata frita.	24,00	parmegiana.jpg		todos	sim
+Marmitas	Strogonoff de Frango	Strogonoff cremoso com batata palha.	24,00	strogonoff_frango.jpg		todos	sim
+Marmitas	Coxa e Sobrecoxa	Coxa e sobrecoxa assadas, douradas por fora.	24,00	coxa_sobrecoxa.jpg		todos	sim
+Marmitas	Bife Grelhado	Bife grelhado em tiras.	24,00	bife_grelhado.jpg		todos	sim
+Marmitas	Bife à Cavalo	Bife grelhado com ovo frito por cima.	26,00	bife_a_cavalo.jpg	Com ovo	todos	sim
+Marmitas	Feijoada	Feijoada completa. Acompanha arroz, farofa, couve e laranja.	24,00	feijoada.jpg	🔥 Só às sextas	sex	sim
+Bebidas	Coca-Cola Lata	310 ml. Normal ou zero, diga qual nas observações.	6,00	cocalata.jpeg		todos	sim
+Bebidas	Suco Lata	Del Valle 310ml, sabores variados.	8,00	suco_lata.jpg		todos	sim
+Bebidas	Água sem gás	Garrafa 500 ml	6,00	agua_sem_gas.jpeg		todos	sim
+Bebidas	Água com gás	Garrafa 500 ml	6,00	agua_com_gas.jpeg		todos	sim
+Bebidas	Guaraná Mineiro 2L	Garrafa 2L	12,00	mineiro2L.jpeg		todos	sim
+Bebidas	Coca-Cola Zero 2L	Garrafa 2L	14,00	cocazero.jpeg		todos	sim
+Bebidas	Coca-Cola 2L	Garrafa 2L	14,00	cocanormal.jpeg		todos	sim
+Bebidas	Coca-Cola 600 ml	Garrafa 600ml	10,00	coca600.jpeg		todos	sim
+Bebidas	Coca-Cola Zero 600 ml	Garrafa 600ml	10,00	cocazero600.jpeg		todos	sim

@@ -129,5 +129,5 @@ Reunir projetos que mostram a aplicação prática de conhecimentos em lógica d
 ---
 
 **Autor:** Robson de Almeida Morais Rocha  
-**Instituição:** SENAI 
+**Instituição:** SENAI Taguatinga, curso Desenvolvedor Java  
 **Idioma da documentação:** Português (Brasil)

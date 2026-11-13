@@ -153,6 +153,9 @@ header .wrap {
     color: var(--mut);
 }
 
+
+.campos input,
+.campos select,
 .campos textarea {
     background-color: var(--card2);
     border: 1px solid var(--borda);
@@ -394,6 +397,169 @@ html {
     display: grid;
     place-items: center;
 }
+
+.itens {
+    padding: 8px 24px;
+
+}
+
+.vazio {
+    color: var(--mut);
+    font-size: 14px;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--borda);
+    font-size: 14px;
+
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 24px;
+    font-weight: 800;
+    font-size: 17px;
+
+}
+
+.item b {
+    display: block;
+    font-weight: 600;
+}
+
+.item small {
+    color: var(--mut);
+}
+
+.qtd {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.qtd button {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: var(--card2);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.qtd button:hover {
+    background-color: var(--vermelho);
+}
+
+.tipo {
+    display: flex;
+    margin: 14px 24px 0;
+    background-color: var(--card2);
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.tipo button {
+    flex: 1;
+    padding: 9px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: var(--mut);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.tipo button.on {
+    background-color: var(--vermelho);
+    color: #fff;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px 0;
+    font-size: 14px;
+    color: var(--mut);
+}
+
+/* ===== Busca ===== */
+.busca {
+    width: 100%;
+    margin-top: 12px;
+    background-color: var(--card);
+    border: 1px solid var(--borda);
+    border-radius: 999px;
+    padding: 12px 18px;
+    color: var(--txt);
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.busca:focus {
+    outline: none;
+    border-color: var(--vermelho);
+}
+
+.sem-resultado {
+    display: none;
+    color: var(--mut);
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* ===== Indisponível hoje ===== */
+.prod.indisponivel {
+    opacity: .45;
+}
+
+.prod.indisponivel:hover {
+    transform: none;
+    border-color: var(--borda);
+}
+
+.prod.indisponivel .add {
+    background-color: var(--card2);
+    cursor: not-allowed;
+}
+
+.prod.indisponivel .preco::after {
+    content: " · Indisponível hoje";
+    color: var(--mut);
+    font-weight: 400;
+    font-size: 13px;
+}
+
+/* ===== Endereço para retirada ===== */
+.retirada {
+    display: none;
+    margin: 12px 24px 0;
+    padding: 12px 14px;
+    background-color: var(--card2);
+    border: 1px solid var(--borda);
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.retirada span {
+    display: block;
+    color: var(--mut);
+}
+
+.retirada a {
+    color: var(--laranja);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+
+
 
 @media (max-width: 980px) {
     .layout {
