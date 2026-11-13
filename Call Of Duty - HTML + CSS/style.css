@@ -1,0 +1,252 @@
+:root {
+    --oliva: #2B3123;
+    --metal: #3A3F44;
+    --areia: #C9B98B;
+    --radar: #E8A33D;
+    --papel: #ECE8DD;
+}
+
+body {
+    margin: 0;
+    background-color: var(--oliva);
+    color: var(--papel);
+    font-family: "Barlow", Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.topo {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px 6vw;
+    background:
+        linear-gradient(to top, var(--oliva) 5%, rgba(43, 49, 35, 0.4)),
+        url("plano de fundo.jpg") center / cover no-repeat;
+}
+
+.topo h1 {
+    font-family: "Black Ops One", Impact, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: clamp(2.4rem, 8vw, 5.5rem);
+    line-height: 1;
+    margin: 0 0 16px;
+    text-shadow: 3px 3px 0 #000;
+}
+
+.topo p {
+    font-size: 1.4rem;
+    text-align: center;
+    align-self: center;
+    margin: 0;
+    padding-left: 14px;
+    border-left: 4px solid var(--radar);
+}
+
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 6vw 60px;
+}
+
+h2 {
+    font-family: "Black Ops One", Impact, sans-serif;
+    font-weight: normal;
+    font-size: 1.8rem;
+    color: var(--areia);
+    margin: 0 0 16px;
+}
+
+.destaque {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 32px;
+    align-items: center;
+}
+
+.destaque img {
+    width: 100%;
+    border: 3px solid var(--areia);
+    box-shadow: 10px 10px 0 var(--metal);
+}
+
+.noticias h2{
+    text-align: center;
+}
+
+.noticias ol{
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.noticias li {
+    background-color: var(--metal);
+    margin-bottom: 12px;
+    padding: 12px 16px;
+    border-left: 4px solid var(--areia);
+}
+
+.noticias li::marker {
+    color: var(--radar);
+    font-weight: bold;
+}
+
+
+
+.gameplay {
+    margin-top: 56px;
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(201, 185, 139, 0.2);
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 32px;
+    align-items: center;
+}
+
+.video {
+    position: relative;
+    display: block;
+}
+
+.video img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    display: grid;
+    place-items: center;
+    background-color: var(--radar);
+    color: #1a1a1a;
+    font-size: 1.6rem;
+    border-radius: 50%;
+}
+
+.botao {
+    display: inline-block;
+    padding: 14px 32px;
+    background-color: var(--areia);
+    color: #1a1a1a;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: 0.15s;
+}
+
+.botao:hover {
+    transform: translateY(-3px);
+}
+
+.ranking {
+    margin-top: 56px;
+}
+
+.ranking ul li::marker{
+    color: var(--radar);
+}
+.ranking ol,
+.ranking ul{
+    padding-left: 0;
+    list-style-position: inside;
+    margin: 0;
+}
+
+.ranking  li{
+    padding: 10px 0;
+    border-bottom: 1px solid var(--metal);
+}
+
+.ranking h2{
+    text-align: center;
+}
+
+.ranking h3{
+    font-family: "Barlow Condensed",Arial, sans-serif;
+    font-size: 1.4rem;
+    color: var(--radar);
+    margin: 0;
+}
+
+.colunas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.ranking h3 {
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    font-size: 1.4rem;
+    color: var(--radar);
+    margin: 0 0 12px;
+}
+
+.ranking li {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--metal);
+}
+
+footer p{
+    margin: 4px 0;
+    text-align: center;
+}
+
+.tabela-jogos {
+    margin-top: 56px;
+}
+
+.tabela-jogos h2 {
+    text-align: center;
+}
+
+.tabela-rolagem {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    font-size: 1.2rem;
+    color: var(--radar);
+    padding: 12px 16px;
+    border-bottom: 2px solid var(--radar);
+}
+
+td {
+    padding: 12px 16px;
+    border-bottom: 1px solid rgba(201, 185, 139, 0.2);
+}
+
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+
+    .destaque,
+    .colunas {
+        grid-template-columns: 1fr;
+    }
+
+}
