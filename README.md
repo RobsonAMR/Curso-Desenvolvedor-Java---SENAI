@@ -1,55 +1,133 @@
-# 👨‍💻 Portfólio: Robson de Almeida Morais Rocha
+# 💻 Portfólio de Projetos
 
-Olá! Aqui estão os projetos que desenvolvi no curso **Desenvolvedor Java** do **SENAI Taguatinga** (turma vespertina, 2026). Eles mostram a minha evolução, desde a lógica de programação até sites com HTML, CSS e JavaScript.
+## Sobre
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Portugol](https://img.shields.io/badge/Portugol-4B8BBE?style=for-the-badge)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+Este repositório reúne projetos acadêmicos e práticos que aplicam conceitos de lógica de programação e desenvolvimento web. Cada projeto tem uma proposta própria e usa as tecnologias adequadas ao seu objetivo.
+
+Esta documentação apresenta uma visão geral dos trabalhos, suas principais funcionalidades e as tecnologias utilizadas.
 
 ---
 
-## 📂 Projetos
+## 📚 Projetos
 
-| Projeto | Descrição | Tecnologias |
-|---|---|---|
-| 📦 [**Controle de Estoque**](./Controle%20de%20Estoque%20Portugol/) | Programa de terminal com menu para consultar o estoque de produtos de informática e registrar retiradas, calculando o valor total. | Portugol |
-| 🎮 [**Call of Duty: só HTML**](./Call%20Of%20Duty%20-%20HTML/) | Site de notícias sobre a série Call of Duty com layout feito só com tabelas e atributos HTML, sem CSS. | HTML |
-| 🎮 [**Call of Duty: HTML + CSS**](./Call%20Of%20Duty%20-%20HTML%20+%20CSS/) | O mesmo site refeito com HTML semântico e CSS externo: variáveis, Flexbox e layout responsivo. | HTML · CSS |
-| 🍱 [**Vianda Marmitex**](./Vianda%20Marmitex%20-%20HTML%20+%20CSS%20+%20JS/) | Cardápio online de um restaurante real, com sacola de pedido e envio pelo WhatsApp. Projeto mais completo do portfólio. | HTML · CSS · JavaScript |
+### 1. Controle de Estoque
 
-> Cada pasta tem o seu próprio `README.md` com os detalhes do projeto.
+**Linguagem:** Portugol
 
----
+Programa de terminal para controlar o estoque de produtos de informática. Foi desenvolvido para praticar lógica de programação, estruturas de repetição, estruturas condicionais e operações matemáticas.
 
-## 📈 Minha evolução
+**Principais funcionalidades:**
 
-```
-Lógica (Portugol)  →  HTML puro  →  HTML + CSS  →  HTML + CSS + JavaScript  →  Java (em breve)
-```
+- Menu que se repete até o usuário escolher sair.
+- Consulta da quantidade disponível de cada produto: teclado, mouse, monitor, notebook, pendrive e computador.
+- Retirada de produtos pelo código, com baixa automática no estoque.
+- Cálculo e exibição do valor total da retirada (quantidade × preço unitário).
+- Validação de códigos inválidos e de quantidades maiores que o estoque disponível.
 
-1. **Lógica de programação:** variáveis, decisões (`se`/`escolha`), laços (`enquanto`) e validação de dados.
-2. **HTML:** estrutura de páginas, tabelas, listas, links e imagens.
-3. **CSS:** separação entre conteúdo e estilo, Flexbox, Grid, variáveis e responsividade.
-4. **JavaScript:** manipulação do DOM, eventos e arrays. Primeiros passos com a sacola de pedidos da Vianda.
-5. **Próximo passo:** programação orientada a objetos com **Java**.
+**Observação:** as quantidades e os preços são definidos no próprio código. As alterações valem só enquanto o programa está em execução, porque os dados não são salvos em arquivo nem em banco de dados.
 
 ---
 
-## ▶️ Como ver os projetos
+### 2. Call of Duty: site de notícias
 
-- **Sites (HTML/CSS/JS):** abra o arquivo `.html` da pasta no navegador ou use a extensão **Live Server** do VS Code.
-- **Portugol:** abra o arquivo `.por` no [Portugol Studio](https://univali-lite.github.io/Portugol-Studio/) ou no [Portugol Webstudio](https://portugol.dev/).
+**Tecnologias:** HTML5 e CSS3
+
+Site estático com notícias e informações sobre a série de jogos Call of Duty.
+
+O projeto foi desenvolvido em duas versões:
+
+- **Versão HTML:** layout montado com tabelas. A aparência é definida por atributos do próprio HTML (`bgcolor`, `background`, `align`, `<font>`), sem arquivo CSS. Esses recursos são obsoletos no HTML5 e foram usados de propósito, para praticar o HTML puro.
+- **Versão HTML + CSS:** estrutura com tags semânticas (`header`, `main`, `section`, `footer`) e aparência concentrada em uma folha de estilos externa (`style.css`), com variáveis CSS, Flexbox e responsividade.
+
+**Conteúdo apresentado:**
+
+- Topo com imagem de fundo e mensagem de boas-vindas.
+- Últimas notícias ao lado da capa do jogo.
+- Área de gameplay com miniatura e link para vídeo no YouTube.
+- Top 3 campeões e principais campeonatos.
+- Linha do tempo da série, com jogo, ano e estúdio (versão HTML).
+- Tabela das melhores armas, com categoria, desempenho e nível de desbloqueio.
+
+**Observação:** as informações estão escritas diretamente na página. O site não tem integração com API nem atualização automática de notícias.
 
 ---
 
-## 📫 Contato
+### 3. Vianda Marmitex
 
-- **LinkedIn:** [seu-linkedin](https://www.linkedin.com/in/SEU-PERFIL)
-- **GitHub:** [@SEU-USUARIO](https://github.com/SEU-USUARIO)
-- **E-mail:** seu-email@exemplo.com
+**Tecnologias:** HTML5, CSS3 e JavaScript
+
+Cardápio online da Vianda Marmitex, restaurante de comida caseira em Vicente Pires (DF). O site apresenta as marmitas e as bebidas e leva o cliente a fazer o pedido pelo WhatsApp. O layout foi inspirado em aplicativos de delivery.
+
+**Estrutura da página:**
+
+- **Cabeçalho fixo:** logo, tempo estimado de entrega e botão de telefone.
+- **Abas e atalhos:** Marmitas, Bebidas, Mais pedidos e Fazer pedido.
+- **Banner:** foto das opções do cardápio.
+- **Marmitas:** cards com foto, descrição e preço de cada prato.
+- **Bebidas:** refrigerante, suco e água mineral com e sem gás.
+- **Sacola de pedido:** área lateral com formulário de envio para o WhatsApp.
+
+**Pratos apresentados:**
+
+- Frango grelhado.
+- Bisteca suína.
+- Parmegiana de frango.
+- Strogonoff de frango.
+- Coxa e sobrecoxa.
+- Bife grelhado.
+- Bife à cavalo.
+- Feijoada.
+
+**Formulário de pedido:**
+
+O cliente escreve o pedido e a forma de pagamento em um campo de texto. Ao clicar em "Enviar pedido no WhatsApp", a mensagem é aberta já endereçada ao número do restaurante.
+
+**JavaScript:**
+
+O arquivo `script.js` começa a montar a sacola de compras. Quando o cliente clica no botão **"+"** de um produto, o script lê o nome e o preço no card, converte o preço de texto para número e guarda o item em um array.
+
+**Layout responsivo:**
+
+No computador, a página usa CSS Grid com duas colunas: o cardápio e a sacola. Em telas com até 980 px, a sacola passa para baixo do cardápio e a página fica com uma coluna só.
+
+**Observação:** a sacola ainda está em desenvolvimento. Por enquanto, os itens adicionados aparecem apenas no console do navegador. Exibir a sacola na tela, somar o total e gerar a mensagem do WhatsApp automaticamente estão previstos como melhorias futuras. O site não processa pagamentos e não armazena pedidos.
 
 ---
 
-<sub>Projetos desenvolvidos para fins de estudo. Call of Duty é marca registrada da Activision.</sub>
+## 🧰 Tecnologias e conceitos
+
+Os projetos trabalham os seguintes recursos:
+
+| Tecnologia / conceito | Aplicação |
+|---|---|
+| Portugol | Lógica de programação e controle de estoque |
+| Estruturas condicionais e de repetição | Menu, seleção de produtos e validação de dados |
+| HTML5 | Estruturação de páginas e conteúdo |
+| Tabelas, listas e links | Organização das informações nos sites |
+| CSS3 | Estilização, identidade visual, Flexbox, Grid e responsividade |
+| Formulários | Envio do pedido da Vianda Marmitex pelo WhatsApp |
+| JavaScript | Eventos, manipulação do DOM e arrays na sacola de pedidos |
+
+---
+
+## ▶️ Como executar
+
+Cada projeto tem sua própria forma de execução:
+
+- **Controle de Estoque:** abra o arquivo `.por` no [Portugol Studio](https://univali-lite.github.io/Portugol-Studio/) ou no [Portugol Webstudio](https://portugol.dev/) e execute o programa.
+- **Call of Duty:** abra o arquivo `site.html` da versão desejada em um navegador. Na versão HTML + CSS, mantenha o `style.css` e as imagens na mesma pasta do HTML.
+- **Vianda Marmitex:** abra o arquivo `index.html` em um navegador, mantendo `style.css`, `script.js` e as imagens na mesma pasta. Para ver a sacola funcionando, abra o console do navegador (F12). A extensão Live Server do Visual Studio Code também pode ser usada durante o desenvolvimento.
+
+Cada pasta tem um `README.md` com mais detalhes sobre a estrutura e a execução do projeto.
+
+---
+
+## 🎯 Objetivo do portfólio
+
+Reunir projetos que mostram a aplicação prática de conhecimentos em lógica de programação e desenvolvimento web, registrando a evolução do aprendizado: da lógica em Portugol ao HTML puro, depois ao HTML com CSS e, por fim, ao JavaScript.
+
+---
+
+**Autor:** Robson de Almeida Morais Rocha  
+**Instituição:** SENAI Taguatinga, curso Desenvolvedor Java  
+**Idioma da documentação:** Português (Brasil)
