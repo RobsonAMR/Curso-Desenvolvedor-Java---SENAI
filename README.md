@@ -1,5 +1,6 @@
 # 👨‍💻 Portfólio: Robson de Almeida Morais Rocha
-Olá! Aqui estão os projetos que desenvolvi no curso **Desenvolvedor Java** do SENAI, Eles mostram a minha evolução, desde a lógica de programação até sites com HTML, CSS e JavaScript.
+
+Olá! Aqui estão os projetos que desenvolvi no curso **Desenvolvedor Java** do **SENAI Taguatinga** (turma vespertina, 2026). Eles mostram a minha evolução, desde a lógica de programação até sites com HTML, CSS e JavaScript.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -45,9 +46,9 @@ Lógica (Portugol)  →  HTML puro  →  HTML + CSS  →  HTML + CSS + JavaScrip
 
 ## 📫 Contato
 
-- **LinkedIn:** https://www.linkedin.com/in/robsondealmeidaa/
-- **GitHub:** (https://github.com/robsonAMR)
-- **E-mail:** robson.allmeiida@gmail.com
+- **LinkedIn:** [seu-linkedin](https://www.linkedin.com/in/SEU-PERFIL)
+- **GitHub:** [@SEU-USUARIO](https://github.com/SEU-USUARIO)
+- **E-mail:** seu-email@exemplo.com
 
 ---
 
