@@ -1,0 +1,33 @@
+
+body {
+    background-color: #eef2f7;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#cardSistema {
+    max-width: 350px;
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+.card-title {
+    font-weight: bold;
+    color: #253858;
+}
+.card-text {
+    font-size: 15px;
+}
+#botao {
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 500;
+}
+#cardSistema.ativado {
+    border: 2px solid #198754;
+}
