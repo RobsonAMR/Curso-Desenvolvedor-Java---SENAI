@@ -50,6 +50,7 @@ O objetivo deste repositório é documentar minha evolução, compartilhar conhe
 | [🎯 Call of Duty — HTML + CSS](./Call%20Of%20Duty%20-%20HTML%20%2B%20CSS/README.md) | HTML5, CSS3 | Evolução do projeto anterior com estilização externa, HTML semântico e melhorias visuais. |
 | [🍱 Vianda Marmitex](./Vianda%20Marmitex%20-%20HTML%20%2B%20CSS%20%2B%20JS/README.md) | HTML5, CSS3, JavaScript | Cardápio responsivo com busca, sacola de compras, cálculo de valores e pedidos via WhatsApp. |
 | [🛡️ Sistema Orion](./Sistema%20Orion%20HTML%20%2B%20Bootstrap%2BJS/) | HTML5, CSS3, Bootstrap 5, JavaScript | Card interativo com alteração dinâmica de textos, cores e status de ativação utilizando JavaScript puro. |
+| [Sistema de Biblioteca — MySQL](./Banco%20de%20Dados%20-%20MySQL/README.md) | MySQL, SQL | Gerenciamento de livros e autores, consultas, relacionamentos e controle de estoque. |
 
 ---
 
